@@ -1,0 +1,41 @@
+COMANDI CONFIGURAZIONE PANDAS
+
+
+# set numero massimo di righe visualizzabili
+pd.set_option('display.max_rows', 200)
+
+# rendi visibile tutte le righe
+pd.set_option('display.max_rows', None)
+
+# set numero massimo colonne visulaizzabili
+pd.set_option('display.max_columns', 30)
+
+# rendi visibile tutte le colonne
+pd.set_option('display.max_columns', None)
+
+# set lunghezza colonne a 500 caratteri
+pd.set_option('display.max_colwidth', 500)
+
+# rendi visibili tutte i caratteri dellle colonne
+pd.set_option('display.max_colwidth', None)
+
+# set precisione numeri decimali
+pd.set_option('display.precision', 2)
+
+#big number
+pd.set_option('display.float_format', '{:,}'.format)
+
+# float number
+pd.set_option('display.float_format', '{:,.2f}'.format)
+
+
+#Aggiornare pacchetti
+conda update anaconda
+
+#Lanciare la shell jupyter
+jupyter lab --ip=127.0.0.1 --port=8080
+
+
+
+
+
